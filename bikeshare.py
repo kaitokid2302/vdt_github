@@ -1,6 +1,6 @@
-import time
-import pandas as pd
-# import numpy as np
+# import time
+# import pandas as pd
+import numpy as np
 
 CITY_DATA = { 'Chicago': 'chicago.csv',
               'New York': 'new_york_city.csv',
@@ -9,7 +9,7 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
 months = ['January', 'February', 'March', 'April', 'May', 'June']
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-def get_filters():
+# def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
